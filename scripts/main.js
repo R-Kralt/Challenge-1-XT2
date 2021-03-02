@@ -67,7 +67,7 @@ var myBarChart = new Chart(ctr, {
                 'rgb(205,133,63, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(112,128,144, 1)'            ],
-            borderWidth: 7
+            borderWidth: 3
 
         }]
     },
@@ -102,7 +102,7 @@ var myDoughnutChart = new Chart(ctd, {
                 'rgba(0, 82, 136, 1)',
                 'rgba(0, 82, 136, 0.1)',
             ],
-            borderWidth: 6
+            borderWidth: 3
         }]
     },
 
@@ -135,7 +135,7 @@ var myBarChart = new Chart(ctm, {
                 'rgba(178,34,34, 1)',
                 'rgba(178,34,34, 0.1)',
             ],
-            borderWidth: 5
+            borderWidth: 3
         }]
     },
 
@@ -180,7 +180,7 @@ var myBarChart = new Chart(ctw, {
             borderColor: [
                 'rgba(0, 82, 136, 1)'            
                 ],
-            borderWidth: 7
+            borderWidth: 3
 
         }]
     },
