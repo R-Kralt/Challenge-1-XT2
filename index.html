@@ -4,10 +4,41 @@
 		<meta charset='utf-8'/>
 		<title>Tesla stock</title>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>	
-		<link rel="stylesheet" href="styles.css">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/layout.css" rel="stylesheet" />	
 	</head>
 	<body>
-		<canvas id="myChart" width="400" height="400"></canvas>
+		<div id="topbar" class="grid-item nav">
+			<img id="teslatop" src="images/tesla.png" alt="tesla onboard logo">
+		</div>
+		<aside id="chart1" class="items grid-item ad1">
+			<h2 class="gridtext">Speed<br>(km/s)</h2>
+			<canvas id="myChart1" class="charts"></canvas>
+		</aside>
+		<aside id="chart2" class="items grid-item ad2">
+			<h2 class="gridtext">Supplies</h2>
+			<canvas id="myChart2" class="charts"></canvas>
+		</aside>
+		<aside id="chart3" class="items grid-item ad3">
+			<h2 class="gridtext">Fuel</h2>
+			<canvas id="myChart3" class="charts"></canvas>
+		</aside>
+		<aside id="video" class="grid-item ad4">
+			<iframe id="spacevid" src="https://www.youtube.com/embed/DDU-rZs-Ic4">
+			</iframe>
+		</aside>
+		<aside id="chart4" class="items grid-item ad5">
+			<h2 class="gridtext">ETA</h2>
+			<p id="chart4text">206 days</p>
+		</aside>
+		<aside id="chart5" class="items grid-item ad6">
+			<h2 class="gridtext">G-Force</h2>
+			<canvas id="myChart5" class="charts"></canvas>
+		</aside>
+		<aside id="chart6" class="items grid-item ad7">
+			<h2 class="gridtext">Distance travelled<br>(x 10<sup>6</sup>)</h2>
+			<canvas id="myChart6" class="charts"></canvas>
+		</aside>
 		<script src="scripts/main.js"></script>
 	</body>
 
